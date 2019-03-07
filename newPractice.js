@@ -33,3 +33,24 @@ console.log(madeMeSick)
 foodIWantToEat.splice(1, 0, "Maple Bars", "Caramels");
 
 console.log(foodIWantToEat);
+
+var blueSword = {
+    author: "Robin Mckinley",
+    pages: 267,
+    newBeryAward: true,
+    owner: "Springville Library"
+};
+
+var bookAuthor = blueSword.author;
+console.log(bookAuthor);
+
+var bookPages = blueSword['pages'];
+console.log(bookPages);
+
+const practiceArrow = () => {return "Hola"};
+console.log(practiceArrow());
+
+const getInTheCar = () => {return "loser"};
+const loser = () => {return "Ew"};
+
+console.log(loser());
